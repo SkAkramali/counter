@@ -1,0 +1,21 @@
+.card{
+  height: 220px;
+  width: 340px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding:1em;
+}
+.counter{
+  font-size: 1.3rem;
+}
+.counterActions{
+  display: flex;
+  justify-content: space-evenly;
+}
+.increment, .decrement, .reset{
+  height: 35px;
+  width: 60px;
+  font-size: 1.1rem;
+  border:2px solid #b06ab3;
+}
